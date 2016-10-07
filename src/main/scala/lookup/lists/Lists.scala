@@ -1,6 +1,6 @@
-package lists
+package lookup.lists
 
-object lists {
+object Lists {
 
   def main(args: Array[String]): Unit = {
 
