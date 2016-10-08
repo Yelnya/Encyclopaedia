@@ -1,3 +1,32 @@
 <component name="CopyrightManager">
-  <settings default="" />
+  <settings default="">
+    <LanguageOptions name="HTML">
+      <option name="fileTypeOverride" value="3" />
+      <option name="separateBefore" value="true" />
+      <option name="separateAfter" value="true" />
+      <option name="lenBefore" value="70" />
+      <option name="lenAfter" value="70" />
+    </LanguageOptions>
+    <LanguageOptions name="JAVA">
+      <option name="fileTypeOverride" value="3" />
+      <option name="separateBefore" value="true" />
+      <option name="separateAfter" value="true" />
+      <option name="lenBefore" value="70" />
+      <option name="lenAfter" value="70" />
+    </LanguageOptions>
+    <LanguageOptions name="Properties">
+      <option name="fileTypeOverride" value="3" />
+      <option name="separateBefore" value="true" />
+      <option name="separateAfter" value="true" />
+      <option name="lenBefore" value="70" />
+      <option name="lenAfter" value="70" />
+    </LanguageOptions>
+    <LanguageOptions name="Scala">
+      <option name="fileTypeOverride" value="3" />
+      <option name="separateBefore" value="true" />
+      <option name="separateAfter" value="true" />
+      <option name="lenBefore" value="70" />
+      <option name="lenAfter" value="70" />
+    </LanguageOptions>
+  </settings>
 </component>

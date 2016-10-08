@@ -1,4 +1,4 @@
-package lookup.Sets
+package lookup.sets
 
 // from: https://www.scala-exercises.org/std_lib/sets
 object Sets {
