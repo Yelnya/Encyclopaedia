@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db98fd08-be9e-47db-ad0b-ff74cba72d96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/lookup/infix_types/InfixTypes.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/lookup/sequences_and_arrays/SequencesAndArrays.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Encyclopaedia.iws" />
@@ -52,11 +52,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InfixTypes.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InfixTypes.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/infix_types/InfixTypes.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="654">
-              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SequencesAndArrays.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/sequences_and_arrays/SequencesAndArrays.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -113,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/lookup/for_expressions/ForExpressions.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lookup/infix_prefix_postfix_operators/InfixPrefixPostfixOperators.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lookup/infix_types/InfixTypes.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/lookup/sequences_and_arrays/SequencesAndArrays.scala" />
       </list>
     </option>
   </component>
@@ -327,6 +338,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Encyclopaedia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Encyclopaedia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lookup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequences_and_arrays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -342,22 +383,7 @@
       <recent name="lookup.asserts" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InfixTypes">
-    <configuration default="false" name="Implicits" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="lookup.implicits.Implicits" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="encyclopaedia" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.SequencesAndArrays">
     <configuration default="false" name="Traits" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="lookup.traits.Traits" />
@@ -406,6 +432,21 @@
     <configuration default="false" name="InfixTypes" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="lookup.infix_types.InfixTypes" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="encyclopaedia" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SequencesAndArrays" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="lookup.sequences_and_arrays.SequencesAndArrays" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -652,19 +693,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Implicits" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Traits" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ForExpressions" />
-      <item index="3" class="java.lang.String" itemvalue="Application.InfixPrefixPostfixOperators" />
-      <item index="4" class="java.lang.String" itemvalue="Application.InfixTypes" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Traits" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ForExpressions" />
+      <item index="2" class="java.lang.String" itemvalue="Application.InfixPrefixPostfixOperators" />
+      <item index="3" class="java.lang.String" itemvalue="Application.InfixTypes" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SequencesAndArrays" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.InfixTypes" />
-        <item index="1" class="java.lang.String" itemvalue="Application.InfixPrefixPostfixOperators" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ForExpressions" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Traits" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Implicits" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SequencesAndArrays" />
+        <item index="1" class="java.lang.String" itemvalue="Application.InfixTypes" />
+        <item index="2" class="java.lang.String" itemvalue="Application.InfixPrefixPostfixOperators" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ForExpressions" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Traits" />
       </list>
     </recent_temporary>
   </component>
@@ -801,12 +842,19 @@
       <option name="project" value="LOCAL" />
       <updated>1476100281723</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added chapter InfixTypes&#10;">
+      <created>1476102041535</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1476102041535</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -821,7 +869,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.4936034" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15511727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15511727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -879,7 +927,8 @@
     <MESSAGE value="added chapter Traits&#10;" />
     <MESSAGE value="added chapter ForExpressions&#10;" />
     <MESSAGE value="added chapter InfixPrefixPostfixOperators&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="added chapter InfixPrefixPostfixOperators&#10;" />
+    <MESSAGE value="added chapter InfixTypes&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added chapter InfixTypes&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1122,7 +1171,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/infix_types/InfixTypes.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="654">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/sequences_and_arrays/SequencesAndArrays.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
           <folding />
         </state>
       </provider>
