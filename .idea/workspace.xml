@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db98fd08-be9e-47db-ad0b-ff74cba72d96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/lookup/traits/Traits.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/lookup/for_expressions/ForExpressions.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Encyclopaedia.iws" />
@@ -32,11 +32,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Traits.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Traits.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/traits/Traits.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="722">
               <caret line="104" column="15" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForExpressions.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/for_expressions/ForExpressions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -90,6 +100,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/lookup/partial_functions/PartialFunctions.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lookup/implicits/Implicits.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lookup/traits/Traits.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/lookup/for_expressions/ForExpressions.scala" />
       </list>
     </option>
   </component>
@@ -330,7 +341,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="traits" />
+              <option name="myItemId" value="for_expressions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,22 +360,7 @@
       <recent name="lookup.asserts" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Traits">
-    <configuration default="false" name="CaseClasses" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="lookup.case_classes.CaseClasses" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="encyclopaedia" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ForExpressions">
     <configuration default="false" name="PartiallyAppliedFunctions" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="lookup.partially_applied_functions.PartiallyAppliedFunctions" />
@@ -413,6 +409,21 @@
     <configuration default="false" name="Traits" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="lookup.traits.Traits" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="encyclopaedia" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ForExpressions" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="lookup.for_expressions.ForExpressions" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -659,19 +670,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CaseClasses" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PartiallyAppliedFunctions" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PartialFunctions" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Implicits" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Traits" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PartiallyAppliedFunctions" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PartialFunctions" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Implicits" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Traits" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ForExpressions" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Traits" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Implicits" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PartialFunctions" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PartiallyAppliedFunctions" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CaseClasses" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ForExpressions" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Traits" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Implicits" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PartialFunctions" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PartiallyAppliedFunctions" />
       </list>
     </recent_temporary>
   </component>
@@ -787,7 +798,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476097716171</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added chapter Traits&#10;">
+      <created>1476098583081</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1476098583081</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -862,7 +880,8 @@
     <MESSAGE value="added chapter Partially Applied Functions&#10;" />
     <MESSAGE value="added chapter Partial Functions&#10;" />
     <MESSAGE value="added chapter Implicits&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="added chapter Implicits&#10;" />
+    <MESSAGE value="added chapter Traits&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added chapter Traits&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1082,6 +1101,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="104" column="15" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/for_expressions/ForExpressions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding />
         </state>
       </provider>
