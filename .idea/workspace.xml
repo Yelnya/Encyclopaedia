@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db98fd08-be9e-47db-ad0b-ff74cba72d96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/lookup/byname_parameter/BynameParameter.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/encyclopaedia.iml" afterPath="$PROJECT_DIR$/.idea/modules/encyclopaedia.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Encyclopaedia.iws" />
@@ -45,8 +46,8 @@
       <file leaf-file-name="BynameParameter.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/byname_parameter/BynameParameter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+            <state relative-caret-position="288">
+              <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -75,7 +76,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/MainObject.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/NinetynineProblems.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lists/lists.scala" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/scala/exercises/NinetynineProblems.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/lookup/asserts/asserts.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lookup/asserts/asserts.scala" />
@@ -109,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/lookup/named_and_default_arguments/NamedAndDefaultArguments.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lookup/extractors/Extractors.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lookup/byname_parameter/BynameParameter.scala" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -950,7 +951,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476184696470</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="finished chapter BynameParameter&#10;">
+      <created>1476185679284</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1476185679284</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1035,7 +1043,8 @@
     <MESSAGE value="finished chapter Traversables&#10;" />
     <MESSAGE value="finished chapter NamedAndDefaultArguments&#10;" />
     <MESSAGE value="finished chapter Extractors&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished chapter Extractors&#10;" />
+    <MESSAGE value="finished chapter BynameParameter&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished chapter BynameParameter&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1149,13 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1340,10 +1342,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/byname_parameter/BynameParameter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        <state relative-caret-position="288">
+          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
           <folding />
         </state>
       </provider>
