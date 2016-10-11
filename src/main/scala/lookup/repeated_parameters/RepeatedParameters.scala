@@ -22,6 +22,19 @@ object RepeatedParameters {
     println(repeatedParameterMethod(3, "egg", "a delicious sandwich", "protein", "high cholesterol"))
     // RESULT: 3 eggs can give you a delicious sandwich, protein, high cholesterol
 
-  }
+    /**
+      * A repeated parameter can accept a collection as the last parameter but will be considered a single object
+      */
 
+    println(repeatedParameterMethod(3, "egg", List("a delicious sandwich", "protein", "high cholesterol")))
+    // RESULT: 3 eggs can give you List(a delicious sandwich, protein, high cholesterol)
+
+    /**
+      * A repeated parameter can accept a collection,and if you want it expanded, add :_*
+      */
+
+    println(repeatedParameterMethod(3, "egg", List("a delicious sandwich", "protein", "high cholesterol"): _*))
+    // RESULT: 3 eggs can give you a delicious sandwich, protein, high cholesterol
+
+  }
 }
