@@ -50,6 +50,7 @@ object P06 {
     }
 
     println(lookIfPalindromeWithReverse(list))
+    // RESULT: true
 
     /**
       * Solution 3
@@ -60,6 +61,7 @@ object P06 {
     }
 
     println(lookIfPalindromeWithReverseShorter(list))
+    // RESULT: true
 
   }
 }
