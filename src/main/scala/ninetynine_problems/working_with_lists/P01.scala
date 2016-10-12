@@ -49,8 +49,8 @@ object P01 {
       */
 
     def lastRecursive(list: List[Int]): Int = list match {
+      case head :: Nil => head  // no tail is left, so get last element
       case _ :: tail => lastRecursive(tail) // re-call function with new tail until there is no tail left
-      case h :: Nil => h  // no tail is left, so get last element
       case _ => -1 /*throw new NoSuchElementException*/    // if List is empty
     }
 
