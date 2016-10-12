@@ -1,5 +1,9 @@
 package ninetynine_problems.working_with_lists
 
+/**
+  * from: http://aperiodic.net/phil/scala/s-99/
+  */
+
 object P01 {
 
   def main(args: Array[String]): Unit = {
@@ -23,15 +27,35 @@ object P01 {
       * Solution 1
       */
 
-    println(list.last)
+    if (!list.isEmpty) {
+      println(list.last)
+    }
     // RESULT: 8
 
     /**
       * Solution 2
       */
 
-    val sizeOfList = list.size
-    println(list(sizeOfList-1))
+      if (!list.isEmpty) {
+        val sizeOfList = list.size
+        println(list(sizeOfList-1))
+      }
+      // RESULT: 8
+
+    /**
+      * Solution 3
+      * The standard functional approach is to recurse down the list until we hit the end.  Scala's
+      * pattern matching makes this easy.
+      */
+
+    def lastRecursive(list: List[Int]): Int = list match {
+      case _ :: tail => lastRecursive(tail) // re-call function with new tail until there is no tail left
+      case h :: Nil => h  // no tail is left, so get last element
+      case _ => -1 /*throw new NoSuchElementException*/    // if List is empty
+    }
+
+    println(lastRecursive(list))
     // RESULT: 8
+
   }
 }
