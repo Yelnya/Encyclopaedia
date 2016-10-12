@@ -35,6 +35,25 @@ object P08 {
     // RESULT: List('a, 'b, 'c, 'a, 'd, 'e)
 
     /**
+      * Solution 1-2
+      * Petra, without method templates, and only with one list
+      */
+
+
+    def eliminateCopies2(list: List[Symbol]): List[Symbol] = list match {
+      case head :: Nil => list       // if this is last Element
+      case head :: tail => if (head == tail.head) {   // if first two elements do match
+        eliminateCopies2(tail)  // cut first element
+      } else {
+        head +: eliminateCopies2(tail)  // add head to tail, because no copy
+      }
+      case Nil => throw new NoSuchElementException   // if list is empty
+    }
+
+    println(eliminateCopies2(list))
+    // RESULT: List('a, 'b, 'c, 'a, 'd, 'e)
+
+    /**
       * Solution 2
       * standard recursive
       */
