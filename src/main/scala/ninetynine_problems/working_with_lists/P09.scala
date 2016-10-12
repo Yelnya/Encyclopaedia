@@ -1,5 +1,7 @@
 package ninetynine_problems.working_with_lists
 
+import scala.collection.mutable.ListBuffer
+
 /**
   * from: http://aperiodic.net/phil/scala/s-99/
   */
@@ -20,51 +22,38 @@ object P09 {
       * Petra
       */
 
-    def packList(list: List[Any]): List[Any] = {
-      println("PACKLIST = List: " + list)
-      list match {
-        case head :: Nil => println("PACKLIST = Last Element: " + list);
-          list // if this is last Element
+    var sublist = new ListBuffer[Any]
+    var finishList = false
 
-        case head :: tail => if (head == tail.head) {
-//          packList(tail, Nil) // cut first element
-          println("PACKLIST = head == tail.head: " + list)
-          println(list.dropWhile(_ == head) :: addToSubList(list, Nil))
-          addToSubList(list, Nil) :: list.dropWhile(_ == head)
-//          list :: addToSubList(list, Nil)
-
-        } else {
-          println("PACKLIST = head != tail.head, " + list)
-          head +: packList(tail) // add head to tail, because no copy
+    def packList(list: List[Any], finalList: List[Any]): List[Any] = {
+      if (finishList) {
+        if (!sublist.isEmpty) {
+          sublist.clear()
         }
-        case Nil => throw new NoSuchElementException // if list is empty
+        finishList = !finishList
       }
-    }
-
-    def addToSubList(list: List[Any], subList: List[Any]) : List[Any] = {
-      println("SUBLIST = List: " + list)
       list match {
+        case head :: Nil =>
+          finishList = true
+          sublist += head
+          //            println("Head :: Nil : subList: " + sublist + ", finalList: " + finalList :: sublist.toList)
+          finalList :+ sublist.toList
+
         case head :: tail => if (head == tail.head) {
-          println("SUBLIST: Tail == Head")
-          addToSubList(tail, subList :+ head)
+          finishList = false
+          sublist += head
+          //          println("Head == Tail.Head: Tail: " + tail + ", subList: " + sublist + ", finalList: " + finalList)
+          packList(tail, finalList)
         } else {
-          println("SUBLIST: Tail != Head")
-//          packList(tail, subList :+ head)
-          println("SUBLIST = " + (subList :+ head));
-          subList :+ head
+          finishList = true
+          sublist += head
+          //            println("Head != Tail.Head: Tail: " + tail + ", subList: " + sublist + ", finalList: " + finalList :: sublist.toList)
+          packList(tail, finalList :+ sublist.toList)
         }
       }
     }
 
-    println(packList(list))
-
-
-//    val list1 = List(1, 2)
-//    val list2 = List(2, 3)
-//    val list3 = List(4, 5)
-//    val result = list1 :+ (list2, list3)
-//
-//    println(result)
+    println(packList(list, Nil))
 
   }
 }
