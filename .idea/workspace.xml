@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db98fd08-be9e-47db-ad0b-ff74cba72d96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P12.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P13.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P11.scala" afterPath="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P11.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P12.scala" afterPath="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P12.scala" />
     </list>
     <ignored path="Encyclopaedia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="P12.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P12.scala">
+      <file leaf-file-name="P13.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P13.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
+            <state relative-caret-position="270">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -91,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/lookup/objects/Objects.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lookup/package.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lookup/tuples/Tuples.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lookup/higher_order_functions/HigherOrderFunctions.scala" />
@@ -142,6 +141,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/lookup/type_variance/TypeVariance.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P11.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P12.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P13.scala" />
       </list>
     </option>
   </component>
@@ -374,27 +374,7 @@
       <recent name="lookup.asserts" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P12">
-    <configuration default="false" name="P08" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ninetynine_problems.working_with_lists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ninetynine_problems.working_with_lists.P08" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="encyclopaedia" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.P13">
     <configuration default="false" name="P09" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -463,6 +443,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="ninetynine_problems.working_with_lists.P12" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="encyclopaedia" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="P13" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ninetynine_problems.working_with_lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ninetynine_problems.working_with_lists.P13" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -776,19 +776,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.P08" />
-      <item index="1" class="java.lang.String" itemvalue="Application.P09" />
-      <item index="2" class="java.lang.String" itemvalue="Application.P10" />
-      <item index="3" class="java.lang.String" itemvalue="Application.P11" />
-      <item index="4" class="java.lang.String" itemvalue="Application.P12" />
+      <item index="0" class="java.lang.String" itemvalue="Application.P09" />
+      <item index="1" class="java.lang.String" itemvalue="Application.P10" />
+      <item index="2" class="java.lang.String" itemvalue="Application.P11" />
+      <item index="3" class="java.lang.String" itemvalue="Application.P12" />
+      <item index="4" class="java.lang.String" itemvalue="Application.P13" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.P12" />
-        <item index="1" class="java.lang.String" itemvalue="Application.P11" />
-        <item index="2" class="java.lang.String" itemvalue="Application.P10" />
-        <item index="3" class="java.lang.String" itemvalue="Application.P09" />
-        <item index="4" class="java.lang.String" itemvalue="Application.P08" />
+        <item index="0" class="java.lang.String" itemvalue="Application.P13" />
+        <item index="1" class="java.lang.String" itemvalue="Application.P12" />
+        <item index="2" class="java.lang.String" itemvalue="Application.P11" />
+        <item index="3" class="java.lang.String" itemvalue="Application.P10" />
+        <item index="4" class="java.lang.String" itemvalue="Application.P09" />
       </list>
     </recent_temporary>
   </component>
@@ -1121,7 +1121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476349136717</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="finished P12">
+      <created>1476356386318</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1476356386318</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1198,7 +1205,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="finished chapter NamedAndDefaultArguments&#10;" />
     <MESSAGE value="finished chapter Extractors&#10;" />
     <MESSAGE value="finished chapter BynameParameter&#10;" />
     <MESSAGE value="reverted removal of .idea&#10;" />
@@ -1223,7 +1229,8 @@
     <MESSAGE value="finished P08" />
     <MESSAGE value="finished P10" />
     <MESSAGE value="finished P11" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished P11" />
+    <MESSAGE value="finished P12" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished P12" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1237,13 +1244,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/tuples/Tuples.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/higher_order_functions/HigherOrderFunctions.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501">
@@ -1466,13 +1466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/immutable/List.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="419" column="0" selection-start-line="419" selection-start-column="0" selection-end-line="419" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P05.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -1560,6 +1553,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/immutable/List.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="365" column="29" selection-start-line="365" selection-start-column="29" selection-end-line="365" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P12.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P09.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1568,10 +1577,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P12.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P13.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
+        <state relative-caret-position="270">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding />
         </state>
       </provider>
