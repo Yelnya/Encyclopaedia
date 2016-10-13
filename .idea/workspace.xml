@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db98fd08-be9e-47db-ad0b-ff74cba72d96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P14.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P15.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P09.scala" afterPath="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P09.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P14.scala" afterPath="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P14.scala" />
     </list>
     <ignored path="Encyclopaedia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,31 +38,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="P09.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P09.scala">
+      <file leaf-file-name="P15.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P15.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="47" column="37" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="37" />
+            <state relative-caret-position="252">
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="P14.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="P14.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P14.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="60" column="67" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lists.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/lists/Lists.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+            <state relative-caret-position="531">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/lookup/tuples/Tuples.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lookup/higher_order_functions/HigherOrderFunctions.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lookup/lists/Lists.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lookup/maps/Maps.scala" />
@@ -142,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P13.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P09.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P14.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P15.scala" />
       </list>
     </option>
   </component>
@@ -374,27 +364,7 @@
       <recent name="lookup.asserts" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P14">
-    <configuration default="false" name="P10" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ninetynine_problems.working_with_lists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ninetynine_problems.working_with_lists.P10" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="encyclopaedia" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.P15">
     <configuration default="false" name="P11" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -463,6 +433,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="ninetynine_problems.working_with_lists.P14" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="encyclopaedia" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="P15" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ninetynine_problems.working_with_lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ninetynine_problems.working_with_lists.P15" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -776,19 +766,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.P10" />
-      <item index="1" class="java.lang.String" itemvalue="Application.P11" />
-      <item index="2" class="java.lang.String" itemvalue="Application.P12" />
-      <item index="3" class="java.lang.String" itemvalue="Application.P13" />
-      <item index="4" class="java.lang.String" itemvalue="Application.P14" />
+      <item index="0" class="java.lang.String" itemvalue="Application.P11" />
+      <item index="1" class="java.lang.String" itemvalue="Application.P12" />
+      <item index="2" class="java.lang.String" itemvalue="Application.P13" />
+      <item index="3" class="java.lang.String" itemvalue="Application.P14" />
+      <item index="4" class="java.lang.String" itemvalue="Application.P15" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.P14" />
-        <item index="1" class="java.lang.String" itemvalue="Application.P13" />
-        <item index="2" class="java.lang.String" itemvalue="Application.P12" />
-        <item index="3" class="java.lang.String" itemvalue="Application.P11" />
-        <item index="4" class="java.lang.String" itemvalue="Application.P10" />
+        <item index="0" class="java.lang.String" itemvalue="Application.P15" />
+        <item index="1" class="java.lang.String" itemvalue="Application.P14" />
+        <item index="2" class="java.lang.String" itemvalue="Application.P13" />
+        <item index="3" class="java.lang.String" itemvalue="Application.P12" />
+        <item index="4" class="java.lang.String" itemvalue="Application.P11" />
       </list>
     </recent_temporary>
   </component>
@@ -1135,7 +1125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476357235691</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="finished P14">
+      <created>1476363676732</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1476363676732</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1212,7 +1209,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="finished chapter BynameParameter&#10;" />
     <MESSAGE value="reverted removal of .idea&#10;" />
     <MESSAGE value="updated RepeatedParameters&#10;" />
     <MESSAGE value="finished chapter RepeatedParameters" />
@@ -1237,7 +1233,8 @@
     <MESSAGE value="finished P11" />
     <MESSAGE value="finished P12" />
     <MESSAGE value="finished P13" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished P13" />
+    <MESSAGE value="finished P14" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished P14" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1251,13 +1248,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/maps/Maps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/sets/Sets.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -1562,18 +1552,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P09.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/traversables/Traversables.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="62" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P09.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1588,8 +1578,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P14.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="60" column="67" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
+        <state relative-caret-position="531">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P15.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
           <folding />
         </state>
       </provider>
