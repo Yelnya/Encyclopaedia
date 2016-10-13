@@ -20,7 +20,13 @@ object TypeVariance {
       * Using type inference the type that you instantiate it will be the val or var reference type:
       */
 
-//    class MyContainer[A](val a: A)(implicit manifest: scala.reflect.Manifest[A]) {
+    /**
+      * COMMENT PJ: all these methods could not be reproduced by myself -> every Example of object "TypeVariance" is
+      * just a copy of https://www.scala-exercises.org/std_lib/type_variance
+      * Solutions for the page have not been compiled but reconstructed by myself
+      */
+
+    //    class MyContainer[A](val a: A)(implicit manifest: scala.reflect.Manifest[A]) {
 //      def contents = manifest.runtimeClass.getSimpleName
 //    }
 //

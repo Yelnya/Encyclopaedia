@@ -36,5 +36,28 @@ object P10 {
     println(makeTuples(list))
     // RESULT: List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
 
+    /**
+      * Solution 2
+      * Phil Gold
+      * working with solution from P09, using the result of the "pack" method
+      */
+
+    def pack[A](ls: List[A]): List[List[A]] = {
+      if (ls.isEmpty) List(List())
+      else {
+        val (packed, next) = ls span { _ == ls.head }
+        if (next == Nil) List(packed)
+        else packed :: pack(next)
+      }
+    }
+
+    def encode[A](ls: List[A]): List[(Int, A)] =
+      pack(ls) map {
+          e => (e.length, e.head)
+        }
+
+    println(encode(list))
+    // RESULT: List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
+
   }
 }

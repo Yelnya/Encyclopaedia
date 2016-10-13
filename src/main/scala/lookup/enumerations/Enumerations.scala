@@ -1,4 +1,4 @@
-package lookup
+package lookup.enumerations
 
 /**
   * from: https://www.scala-exercises.org/std_lib/enumerations
