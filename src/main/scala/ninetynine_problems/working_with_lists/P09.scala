@@ -10,7 +10,7 @@ object P09 {
   def main(args: Array[String]): Unit = {
 
     /**
-      * Pack consecutive duplicates of list elements into sublists.
+      * P09: Pack consecutive duplicates of list elements into sublists.
       * List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should be
       * List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e)
       */
@@ -55,5 +55,21 @@ object P09 {
 
     println(packList(list, Nil))
 
+    /**
+      * Solution 2
+      * Phil Gold
+      * Comment PJ: Don't understand
+      */
+
+    def pack[A](ls: List[A]): List[List[A]] = {
+      if (ls.isEmpty) List(List())
+      else {
+        val (packed, next) = ls span { _ == ls.head }
+        if (next == Nil) List(packed)
+        else packed :: pack(next)
+      }
+    }
+
+    println(pack(list))
   }
 }
