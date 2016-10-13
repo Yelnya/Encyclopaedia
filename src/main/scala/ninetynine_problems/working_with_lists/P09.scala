@@ -36,18 +36,15 @@ object P09 {
         case head :: Nil =>
           finishList = true
           sublist += head
-          //            println("Head :: Nil : subList: " + sublist + ", finalList: " + finalList :: sublist.toList)
           finalList :+ sublist.toList
 
         case head :: tail => if (head == tail.head) {
           finishList = false
           sublist += head
-          //          println("Head == Tail.Head: Tail: " + tail + ", subList: " + sublist + ", finalList: " + finalList)
           packList(tail, finalList)
         } else {
           finishList = true
           sublist += head
-          //            println("Head != Tail.Head: Tail: " + tail + ", subList: " + sublist + ", finalList: " + finalList :: sublist.toList)
           packList(tail, finalList :+ sublist.toList)
         }
       }
@@ -58,7 +55,6 @@ object P09 {
     /**
       * Solution 2
       * Phil Gold
-      * Comment PJ: Don't understand
       */
 
     def pack[A](ls: List[A]): List[List[A]] = {
