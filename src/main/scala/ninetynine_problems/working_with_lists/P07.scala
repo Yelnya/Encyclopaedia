@@ -19,6 +19,7 @@ object P07 {
 
     /**
       * Solution 1
+      * Phil Gold
       */
 
     def flattenMultipleLists(list: List[Any]): List[Any] = list.flatMap {

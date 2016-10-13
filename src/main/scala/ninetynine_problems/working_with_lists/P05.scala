@@ -16,6 +16,7 @@ object P05 {
 
     /**
       * Solution 1
+      * Petra
       */
 
     println(list.reverse)
@@ -23,6 +24,7 @@ object P05 {
 
     /**
       * Solution 2
+      * Petra
       */
 
     def reverseListFunction1 (list: List[Int], reverseList: List[Int]) : List[Int] = {
@@ -38,6 +40,7 @@ object P05 {
 
     /**
       * Solution 3
+      * Phil Gold
       */
 
     def reverseListFunction2 (list: List[Int], reverseList: List[Int]) : List[Int] = list match {
@@ -51,6 +54,7 @@ object P05 {
 
     /**
       * Solution 4
+      * Phil Gold
       * Purely Functional
       */
 

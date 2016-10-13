@@ -56,6 +56,7 @@ object P08 {
     /**
       * Solution 2
       * standard recursive
+      * Phil Gold
       */
 
     def compressRecursive(list: List[Symbol]): List[Symbol] = list match {
@@ -69,6 +70,7 @@ object P08 {
     /**
       * Solution 3
       * tail recursive
+      * Phil Gold
       */
 
     def compressTailRecursive[A](list: List[A]): List[A] = {
@@ -85,6 +87,7 @@ object P08 {
     /**
       * Solution 4
       * Functional
+      * Phil Gold
       */
 
     def compressFunctional[A](list: List[A]): List[A] = list.foldRight(List[A]()) {

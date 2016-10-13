@@ -17,6 +17,7 @@ object P03 {
 
     /**
       * Solution 1
+      * Petra
       */
 
     def findKthElementOfTheList(list: List[Int], k : Int) : Int = {
@@ -38,6 +39,8 @@ object P03 {
 
     /**
       * Solution 2
+      * Phil Gold
+      * BUT gives wrong result!
       */
 
     def findKWithPatternMatching(k: Int, list: List[Int]) : Int = (k, list) match {

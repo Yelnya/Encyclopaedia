@@ -17,6 +17,7 @@ object P02 {
 
     /**
       * Solution 1
+      * Petra
       */
 
     if (!list.isEmpty) {
@@ -27,6 +28,7 @@ object P02 {
 
     /**
       * Solution 2
+      * Petra
       */
 
     def getLastButOneElementOfList(list: List[Int]): Int = list match {
@@ -45,6 +47,7 @@ object P02 {
 
     /**
       * Solution 3: Built-In
+      * Phil Gold
       */
 
     def penultimateBuiltin(list: List[Int]): Int = {

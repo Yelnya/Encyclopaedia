@@ -16,6 +16,7 @@ object P06 {
 
     /**
       * Solution 1
+      * Petra
       */
 
     // take first and last, look if same, then cut both and look again
@@ -36,6 +37,7 @@ object P06 {
 
     /**
       * Solution 2
+      * Petra
       */
 
     // use of reverse method
@@ -54,6 +56,7 @@ object P06 {
 
     /**
       * Solution 3
+      * Phil Gold
       */
 
     def lookIfPalindromeWithReverseShorter(list: List[Int]) : Boolean = {

@@ -25,6 +25,7 @@ object P01 {
 
     /**
       * Solution 1
+      * Petra
       */
 
     if (!list.isEmpty) {
@@ -34,6 +35,7 @@ object P01 {
 
     /**
       * Solution 2
+      * Petra
       */
 
       if (!list.isEmpty) {
@@ -44,6 +46,7 @@ object P01 {
 
     /**
       * Solution 3
+      * Phil Gold
       * The standard functional approach is to recurse down the list until we hit the end.  Scala's
       * pattern matching makes this easy.
       */

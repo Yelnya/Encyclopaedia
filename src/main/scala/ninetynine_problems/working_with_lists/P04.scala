@@ -16,6 +16,7 @@ object P04 {
 
     /**
       * Solution 1
+      * Petra
       */
 
     println(list.size)
@@ -23,6 +24,7 @@ object P04 {
 
     /**
       * Solution 2
+      * Petra
       */
 
     println(list.length)
@@ -30,6 +32,7 @@ object P04 {
 
     /**
       * Solution 3
+      * Phil Gold
       */
 
     def findNumberOfElementsInAList (n : Int, list: List[Int]) : Int = (n, list) match {
