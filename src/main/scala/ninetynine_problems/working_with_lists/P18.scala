@@ -104,8 +104,5 @@ object P18 {
 
     println(sliceFunctional(startPoint, endPoint, list))
     // RESULT: List('d, 'e, 'f, 'g)
-
-
-
   }
 }
