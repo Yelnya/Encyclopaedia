@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db98fd08-be9e-47db-ad0b-ff74cba72d96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P21.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Encyclopaedia.iws" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="P21.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P21.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="630">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -823,13 +822,6 @@
       <option name="presentableId" value="Default" />
       <updated>1474385330887</updated>
     </task>
-    <task id="LOCAL-00001" summary="First Commit">
-      <created>1475740255060</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1475740255060</updated>
-    </task>
     <task id="LOCAL-00002" summary="Second Commit">
       <created>1475740413564</created>
       <option name="number" value="00002" />
@@ -1166,7 +1158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476374164961</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="finished P21">
+      <created>1476375161553</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1476375161553</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1243,7 +1242,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="finished chapter UniformAccessPrinciple" />
     <MESSAGE value="finished chapter LiteralBooleans" />
     <MESSAGE value="finished chapter LiteralNumbers" />
     <MESSAGE value="finished chapter LiteralStrings" />
@@ -1268,7 +1266,8 @@
     <MESSAGE value="finished P18" />
     <MESSAGE value="finished P19" />
     <MESSAGE value="finished P20" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished P20" />
+    <MESSAGE value="finished P21" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished P21" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1622,8 +1621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P21.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="630">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding />
         </state>
       </provider>
