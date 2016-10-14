@@ -24,7 +24,7 @@ object P21 {
       */
 
     def insertValueAtPosition(list: List[Symbol], positionToInsert: Int, valueToInsert: Symbol): List[Symbol] = {
-      if (positionToInsert < list.length && positionToInsert > 0) {
+      if (positionToInsert < list.length) {
         list match {
           case Nil => Nil
           case head :: tail =>
@@ -45,6 +45,12 @@ object P21 {
       * Solution 2
       * Phil Gold
       */
+
+    def insertAt[A](e: A, n: Int, ls: List[A]): List[A] = ls.splitAt(n) match {
+      case (pre, post) => pre ::: e :: post
+    }
+    println(insertAt(valueToInsert, positionToInsert, list))
+    // RESULT: List('a, 'new, 'b, 'c, 'd)
 
   }
 }
