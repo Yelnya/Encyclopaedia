@@ -23,30 +23,34 @@ object P26 {
     /**
       * Solution 1
       * Petra
-      * BUT result is not exactly as wished, some combinations are missing - refining necessary
       */
 
+    // TRY
     def combinations(list: List[Symbol], finalList: List[Any]): List[Any] = {
-
       def fillBufferList(headSymbol: Symbol, tempList: List[Symbol], finalList: List[Symbol]): List[Symbol] = tempList match {
         case Nil => headSymbol +: finalList
         case head :: tail => fillBufferList(headSymbol, tail, finalList :+ head)
       }
-      // RESULT: List('a, 'b, 'c)
-      def fillLineList(headSymbol: Symbol, tempList: List[Symbol], finalList: List[Symbol]): List[Any] = tempList match {
-        case head :: Nil => finalList
-        case head :: tail => finalList ++ (fillBufferList(headSymbol, tempList.take(combinationElements - 1), Nil) :: fillLineList(headSymbol, tail, finalList))
+      def fillLineList(headSymbol: Symbol, tempList: List[Symbol], finalList: List[Symbol], pos: Int): List[Any] = {
+        if (tempList.isEmpty) {
+          return finalList
+        }
+        tempList match {
+          case head :: Nil => fillLineList(list(pos + 1), list.drop(pos + 2), finalList, pos + 1)
+          case head :: tail => finalList ++ (fillBufferList(headSymbol, tempList.take(combinationElements - 1), Nil) :: fillLineList(headSymbol, tail, finalList, pos))
+        }
       }
-      // RESULT: List(List('a, 'b, 'c), List('a, 'c, 'd), List('a, 'd, 'e), List('a, 'e, 'f))
       list match {
         case head :: Nil => finalList
         case head :: tail =>
-          finalList ++ combinations(tail, fillLineList(head, tail, Nil))
+          finalList ++ combinations(tail, fillLineList(head, tail, Nil, 0))
       }
     }
     println(combinations(list, Nil))
     // RESULT: List(List('a, 'b, 'c), List('a, 'c, 'd), List('a, 'd, 'e), List('a, 'e, 'f), List('b, 'c, 'd),
-    // List('b, 'd, 'e), List('b, 'e, 'f), List('c, 'd, 'e), List('c, 'e, 'f), List('d, 'e, 'f))
+    // List('b, 'd, 'e), List('b, 'e, 'f), List('c, 'd, 'e), List('c, 'e, 'f), List('d, 'e, 'f), List('b, 'c, 'd),
+    // List('b, 'd, 'e), List('b, 'e, 'f), List('c, 'd, 'e), List('c, 'e, 'f), List('d, 'e, 'f), List('c, 'd, 'e),
+    // List('c, 'e, 'f), List('d, 'e, 'f), List('d, 'e, 'f))
 
 
     /**
@@ -56,7 +60,7 @@ object P26 {
       * passes successive sublists of L.
       */
 
-    def flatMapSublists[A,B](ls: List[A])(f: (List[A]) => List[B]): List[B] =
+    def flatMapSublists[A, B](ls: List[A])(f: (List[A]) => List[B]): List[B] =
     ls match {
       case Nil => Nil
       case sublist@(_ :: tail) => f(sublist) ::: flatMapSublists(tail)(f)
@@ -66,7 +70,9 @@ object P26 {
     def listCombinations[A](n: Int, ls: List[A]): List[List[A]] =
       if (n == 0) List(Nil)
       else flatMapSublists(ls) { sl =>
-        listCombinations(n - 1, sl.tail) map {sl.head :: _}
+        listCombinations(n - 1, sl.tail) map {
+          sl.head :: _
+        }
       }
 
     println(listCombinations(combinationElements, list))
