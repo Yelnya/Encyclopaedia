@@ -23,7 +23,9 @@ object P26 {
     /**
       * Solution 1
       * Petra
+      * BUT wrong solution!!
       */
+    // TODO: find the right solution
 
     // TRY
     def combinations(list: List[Symbol], finalList: List[Any]): List[Any] = {
