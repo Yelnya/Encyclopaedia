@@ -107,5 +107,6 @@ object P28 {
     //      ls sort { (e1, e2) => freqs(e1.length) < freqs(e2.length) }
     //    }
 
+
   }
 }
