@@ -37,32 +37,56 @@ object P35 {
       rec(2, List()).reverse
     }
 
-    // first get list of primes smaller than given number
+    // first get list of primes smaller/equal than/to given number
     val primesList = primesUnder(value + 1) // value should be included in list if prime
-    println(primesList)
-    // RESULT: List(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89,
-    // 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199,
-    // 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311, 313)
 
-    // then test division of given number by the primes of the list. start with 2, if modulo == 0, 2 is one of the
-    // prime factors and should be added to result list. Continue with 2 and so on.
-    // If modulo % 2 != 0, then 2 is NO prime factor. Continue with next Prime Number (2) and so on
+    /**
+      * Explanation: test division of given number by the primes of primesList. start with 2, if modulo == 0, 2 is one
+      * of the prime factors and should be added to restult list. Continue with 2 and so on.
+      * If modulo % 2 != 0, then 2 is NO prime factor. Continue with next Prime Number (3) and so on
+      */
 
-
-      // TODO solution not right
-    def getPrimeFactorsOfGivenNumber(list: List[Int], n: Int) : List[Int] = {
+    def getPrimeFactorsOfGivenNumber(list: List[Int], n: Int, finalList: List[Int]): List[Any] = {
       // test division of given number by the primes of the list
-      primesList match {
-        case head :: Nil => Nil
+      list match {
+        case head :: Nil => finalList
         case head :: tail =>
           if (n % head == 0) {
-            head :: getPrimeFactorsOfGivenNumber(list, n / head)
-        } else {
-            getPrimeFactorsOfGivenNumber(tail, n)
-        }
+            if (n == 1) finalList else getPrimeFactorsOfGivenNumber(list, n / head, finalList :+ head)
+          } else {
+            getPrimeFactorsOfGivenNumber(tail, n, finalList)
+          }
       }
     }
-    println(getPrimeFactorsOfGivenNumber(primesList, value))
+    println(getPrimeFactorsOfGivenNumber(primesList, value, Nil))
+    // RESULT: List(3, 3, 5, 7)
 
+
+    /**
+      * Solution 2
+      * Phil Gold
+      * with help of "primes" and method "isPrime" from P31
+      * BUT cannot compile!
+      */
+
+    //    def isPrime: Boolean =
+    //    (start > 1) && (primes takeWhile {
+    //      _ <= Math.sqrt(start)
+    //    } forall {
+    //      start % _ != 0
+    //    })
+    //  }
+    //
+    //    val primes = Stream.cons(2, Stream.from(3, 2) filter {
+    //      _.isPrime
+    //    })
+    //
+    //  def primeFactors: List[Int] = {
+    //    def primeFactorsR(n: Int, ps: Stream[Int]): List[Int] =
+    //      if (n.isPrime) List(n)
+    //      else if (n % ps.head == 0) ps.head :: primeFactorsR(n / ps.head, ps)
+    //      else primeFactorsR(n, ps.tail)
+    //    primeFactorsR(start, primes)
+    //  }
   }
 }
