@@ -46,7 +46,7 @@ object P35 {
       * If modulo % 2 != 0, then 2 is NO prime factor. Continue with next Prime Number (3) and so on
       */
 
-    def getPrimeFactorsOfGivenNumber(list: List[Int], n: Int, finalList: List[Int]): List[Any] = {
+    def getPrimeFactorsOfGivenNumber(list: List[Int], n: Int, finalList: List[Int]): List[Int] = {
       // test division of given number by the primes of the list
       list match {
         case head :: Nil => finalList
