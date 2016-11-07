@@ -34,31 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="E6_Error_Handling_With_Try.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/westheide/E6_Error_Handling_With_Try.scala">
+      <file leaf-file-name="E11_Currying_And_Partially_Applied_Functions.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/westheide/E11_Currying_And_Partially_Applied_Functions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="128" column="42" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="E7_The_Either_Type.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/westheide/E7_The_Either_Type.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="171" column="29" selection-start-line="171" selection-start-column="29" selection-end-line="171" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="E8_Welcome_to_the_Future.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/westheide/E8_Welcome_to_the_Future.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+            <state relative-caret-position="162">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -87,9 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/lookup/type_signatures/TypeSignatures.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/lookup/uniform_access_principle/UniformAccessPrinciple.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/lookup/literal_boolean/LiteralBoolean.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lookup/literal_numbers/LiteralNumbers.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lookup/literal_strings/LiteralStrings.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lookup/Enumerations.scala" />
@@ -138,6 +115,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/westheide/E6_Error_Handling_With_Try.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/westheide/E7_The_Either_Type.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/westheide/E8_Welcome_to_the_Future.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/westheide/E9_Promises_And_Futures_In_Practice.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/westheide/E10_Higher_Order_Functions.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/westheide/E11_Currying_And_Partially_Applied_Functions.scala" />
       </list>
     </option>
   </component>
@@ -398,27 +378,7 @@
       <recent name="lookup.asserts" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.E8_Welcome_to_the_Future">
-    <configuration default="false" name="E4_Pattern_Matching_Anonymous_Functions" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="westheide.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="westheide.E4_Pattern_Matching_Anonymous_Functions" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="encyclopaedia" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.E9_Promises_And_Futures_In_Practice">
     <configuration default="false" name="E5_The_Option_Type" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -487,6 +447,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="westheide.E8_Welcome_to_the_Future" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="encyclopaedia" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="E9_Promises_And_Futures_In_Practice" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="westheide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="westheide.E9_Promises_And_Futures_In_Practice" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -800,19 +780,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.E4_Pattern_Matching_Anonymous_Functions" />
-      <item index="1" class="java.lang.String" itemvalue="Application.E5_The_Option_Type" />
-      <item index="2" class="java.lang.String" itemvalue="Application.E6_Error_Handling_With_Try" />
-      <item index="3" class="java.lang.String" itemvalue="Application.E7_The_Either_Type" />
-      <item index="4" class="java.lang.String" itemvalue="Application.E8_Welcome_to_the_Future" />
+      <item index="0" class="java.lang.String" itemvalue="Application.E5_The_Option_Type" />
+      <item index="1" class="java.lang.String" itemvalue="Application.E6_Error_Handling_With_Try" />
+      <item index="2" class="java.lang.String" itemvalue="Application.E7_The_Either_Type" />
+      <item index="3" class="java.lang.String" itemvalue="Application.E8_Welcome_to_the_Future" />
+      <item index="4" class="java.lang.String" itemvalue="Application.E9_Promises_And_Futures_In_Practice" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.E8_Welcome_to_the_Future" />
-        <item index="1" class="java.lang.String" itemvalue="Application.E7_The_Either_Type" />
-        <item index="2" class="java.lang.String" itemvalue="Application.E6_Error_Handling_With_Try" />
-        <item index="3" class="java.lang.String" itemvalue="Application.E5_The_Option_Type" />
-        <item index="4" class="java.lang.String" itemvalue="Application.E4_Pattern_Matching_Anonymous_Functions" />
+        <item index="0" class="java.lang.String" itemvalue="Application.E9_Promises_And_Futures_In_Practice" />
+        <item index="1" class="java.lang.String" itemvalue="Application.E8_Welcome_to_the_Future" />
+        <item index="2" class="java.lang.String" itemvalue="Application.E7_The_Either_Type" />
+        <item index="3" class="java.lang.String" itemvalue="Application.E6_Error_Handling_With_Try" />
+        <item index="4" class="java.lang.String" itemvalue="Application.E5_The_Option_Type" />
       </list>
     </recent_temporary>
   </component>
@@ -1233,9 +1213,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.52136755" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20149253" sideWeight="0.46153846" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20149253" sideWeight="0.46153846" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2782516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26332623" sideWeight="0.48076922" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26332623" sideWeight="0.48076922" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19551282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1324,34 +1304,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/enumerations/Enumerations.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/named_and_default_arguments/NamedAndDefaultArguments.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/lookup/type_variance/TypeVariance.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P11.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/immutable/List.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/ninetynine_problems/working_with_lists/P13.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -1679,8 +1631,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/westheide/E8_Welcome_to_the_Future.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+        <state relative-caret-position="131">
+          <caret line="126" column="23" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/westheide/E9_Promises_And_Futures_In_Practice.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="93" column="7" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/westheide/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/westheide/E10_Higher_Order_Functions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/westheide/E11_Currying_And_Partially_Applied_Functions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding />
         </state>
       </provider>
